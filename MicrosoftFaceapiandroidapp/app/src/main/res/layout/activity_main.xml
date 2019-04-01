@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="9"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="6"
+        android:contentDescription="Image with faces to analyze" />
+
+    <TextView
+        android:id="@+id/imgdata"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text=""
+         android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="@color/blueshade"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:layout_weight="2" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:text="Browse image" />
+</LinearLayout>
